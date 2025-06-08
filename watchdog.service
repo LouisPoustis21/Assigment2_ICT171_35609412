@@ -1,0 +1,14 @@
+[Unit]
+Description=Watchdog - Restart Apache if down
+After=network.target
+
+[Service]
+ExecStart=/home/ubuntu/watchdog.sh
+Restart=always
+User=root
+StandardOutput=syslog
+StandardError=syslog
+
+[Install]
+WantedBy=multi-user.target
+
