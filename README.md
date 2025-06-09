@@ -41,8 +41,10 @@ Key features include:
 ## 📁 File Structure
 
 ```bash
-├── index.html              # Main HTML page
-├── watchdog.sh             # Bash script to monitor Apache
-├── watchdog.service        # systemd service for watchdog
-├── Rapport_Assignment2.pdf # Full documentation (French)
-└── README.md               # Project summary (this file)
+├── index.html              # Homepage of the travel blog
+├── gallery.html            # Travel photo gallery page
+├── contact.html            # Contact form 
+├── watchdog.sh             # Bash script to monitor and restart Apache
+├── watchdog.service        # systemd unit to run the watchdog script as a service
+├── Rapport_Assignment2.pdf # Full project documentation 
+└── README.md               # GitHub project summary and setup instructions
